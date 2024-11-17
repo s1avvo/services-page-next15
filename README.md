@@ -18,7 +18,7 @@ The website is hosted on the [Vercel](https://vercel.com/) platform, ensuring re
 
 ### 2. **Advanced Integrations**
 
-- **Google Reviews**: Integration to display customer reviews from Google service. (The reviews are to PF Klime)
+- **Google Reviews and Map pin**: Integration from Google service. (The reviews and the map pin are for my friends' company - PF Klime, thanks for support)
 - **Newsletter and Contact Form**: Smooth email management for inquiries via a secure Resend.com service.
 - **Cloudinary**: Images are delivered via cdn, ensuring high performance, responsive quality, and device-specific optimization.
 - **shadcn/ui**: Customizable component library.
