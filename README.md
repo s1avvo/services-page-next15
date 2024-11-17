@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KLIMA - Service Website
 
-## Getting Started
+Website is a modern service designed to showcase air conditioning services. Built using **Next.js 15**, it leverages the latest technologies in the React 19 ecosystem. The project emphasizes performance, user-friendliness, multilingual support.
 
-First, run the development server:
+The website is hosted on the [Vercel](https://vercel.com/) platform, ensuring reliability and fast content loading.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [KLIMA](https://services-page-nu.vercel.app/) - Check out our website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 **Features**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. **Next.js 15**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **React 19**: Features advanced APIs and improved performance optimizations.
+- **React Compiler**: Accelerated component rendering.
+- **Turbopack**: High-performance bundler for faster builds.
+- **Experimental Partial Prerendering (PPR)**: Partial pre-rendering for enhanced performance.
+- **New Form component**
 
-## Learn More
+### 2. **Advanced Integrations**
 
-To learn more about Next.js, take a look at the following resources:
+- **Google Reviews**: Integration to display customer reviews from Google service. (The reviews are to PF Klime)
+- **Newsletter and Contact Form**: Smooth email management for inquiries via a secure Resend.com service.
+- **Cloudinary**: Images are delivered via cdn, ensuring high performance, responsive quality, and device-specific optimization.
+- **shadcn/ui**: Customizable component library.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. **Multilingual Support**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Supported languages: **English** and **Polish**.
+- Localization is managed with **next-intl**, making it easy to scale and edit content.
 
-## Deploy on Vercel
+## **Technologies Used**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div>
+  <img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704" alt="Next.js" title="Next.js"/>
+  <img width="50" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/>
+	<img width="50" src="https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png" alt="Tailwind CSS" title="Tailwind CSS"/>
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## **Contact**
+
+If you have questions or suggestions, please contact us at: s.nadolny@hotmail.com
