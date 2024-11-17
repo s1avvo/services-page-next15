@@ -1,0 +1,593 @@
+{
+	"Global": {
+		"metadata": {
+			"title": "KLIMA | Installation of air conditioning and other cooling and ventilation systems.",
+			"description": "We provide comprehensive solutions in the field of cooling, air conditioning, and ventilation systems. We offer installation, service, and sales of equipment and cooling systems.",
+			"openGraph": {
+				"title": "KLIMA | Installation of air conditioning and other cooling and ventilation systems.",
+				"description": "We provide comprehensive solutions in the field of cooling, air conditioning, and ventilation systems.",
+				"images": {
+					"url": "/og_image.png",
+					"alt": "KLIMA | Installation - Service - Sales"
+				}
+			}
+		},
+		"notFound": {
+			"subtitle": "Error 404",
+			"title": "Page not found",
+			"description": "We are sorry, the page you are looking for does not exist.",
+			"goBackLink": "Homepage",
+			"other": {
+				"title": "Check out our other subpages:",
+				"pages": [
+					{
+						"title": "Home Offer",
+						"link": "/oferta/oferta-dla-domu"
+					},
+					{
+						"title": "Business Offer",
+						"link": "/oferta/oferta-dla-firm"
+					},
+					{
+						"title": "Contact",
+						"link": "/kontakt"
+					},
+					{
+						"title": "FAQ",
+						"link": "/faq"
+					}
+				]
+			}
+		},
+		"errorGlobal": {
+			"title": "Something went wrong!",
+			"moreDetails": "See more...",
+			"action": "Try again!"
+		},
+		"error": {
+			"title": "Something went wrong!",
+			"description": "We are sorry, an error occurred. Please try again.",
+			"goBackLink": "Homepage"
+		},
+		"language": {
+			"namePlaceholder": "EN"
+		},
+		"navigation": {
+			"navigation": {},
+			"0": { "label": "Home Offer", "href": "/oferta/oferta-dla-domu" },
+			"1": { "label": "Business Offer", "href": "/oferta/oferta-dla-firm" },
+			"2": { "label": "Contact", "href": "/kontakt" },
+			"3": { "label": "FAQ", "href": "/faq" }
+		},
+		"footer": {
+			"contact": {
+				"header": "Contact"
+			},
+
+			"offer": {
+				"header": "Our Offer",
+				"links": {
+					"0": { "label": "Offer for Home", "href": "/oferta/oferta-dla-domu" },
+					"1": { "label": "Offer for Businesses", "href": "/oferta/oferta-dla-firm" }
+				}
+			},
+			"info": {
+				"header": "Information",
+				"links": {
+					"0": { "label": "Contact", "href": "/kontakt" },
+					"1": { "label": "Privacy Policy", "href": "/privacy-policy" },
+					"2": { "label": "Terms and Conditions", "href": "/terms" }
+				}
+			}
+		},
+		"newsletter": {
+			"title": "Our Newsletter",
+			"description": "Want to stay up to date with our latest news? Looking for promotional deals on air conditioning? Subscribe to our newsletter, and we'll keep you informed about all our promotions.",
+			"emailPlaceholder": "Enter your email",
+			"submitButton": "Send",
+			"success": "You have successfully subscribed our newsletter",
+			"error": "Something went wrong, please try again!"
+		}
+	},
+	"/": {
+		"hero": {
+			"title": "Your CLIMATE <span>in good hands!</span>",
+			"description": "Comprehensive solutions in the field of cooling, air conditioning, and ventilation systems tailored to the needs of both individual and commercial clients.",
+			"action": "Our offer"
+		},
+		"offer": {
+			"subtitle": "Offer",
+			"title": "Our <span>HVACR</span> solution offer",
+			"description": "Includes comprehensive air conditioning, ventilation, cooling, and heating systems tailored to the needs of both individual and commercial clients. We provide design, installation, and maintenance of advanced technological equipment that ensures optimal energy efficiency and user comfort. Our solutions are characterized by innovation, reliability, and compliance with the highest quality and safety standards. We offer personalized advice and technical support at every stage.",
+			"items": {
+				"forBusiness": {
+					"link": "/oferta/oferta-dla-firm",
+					"title": "Business Offer",
+					"imageId": "offer_for_business_eeme4w"
+				},
+				"forHome": {
+					"link": "/oferta/oferta-dla-domu",
+					"title": "Home Offer",
+					"imageId": "offer_for_home_srz6xo"
+				}
+			}
+		},
+		"features": {
+			"subtitle": "About Us",
+			"title": "Why <span>us?</span>",
+			"description": "Our solutions are characterized by innovation, reliability, and compliance with the highest quality and safety standards.",
+			"items": {
+				"0": {
+					"icon": "/assets/features-exp.svg",
+					"title": "Experience",
+					"description": "We have many years of experience in the HVACR industry, allowing us to offer services of the highest quality. Our qualified technicians regularly participate in training."
+				},
+				"1": {
+					"icon": "/assets/features-service.svg",
+					"title": "Comprehensive Service",
+					"description": "We offer a full range of services, from consulting and designing to HVACR system installation, technical support, and post-installation maintenance."
+				},
+				"2": {
+					"icon": "/assets/features-approach.svg",
+					"title": "Individual Approach",
+					"description": "We carefully analyze the needs and expectations of our clients. We provide solutions that guarantee maximum comfort, aesthetics, and long-term savings."
+				},
+				"3": {
+					"icon": "/assets/features-quality.svg",
+					"title": "Product Quality",
+					"description": "We cooperate only with renowned manufacturers. This allows us to ensure the reliability and durability of our installations."
+				},
+				"4": {
+					"icon": "/assets/features-cost.svg",
+					"title": "Competitive Prices",
+					"description": "Our prices go hand in hand with high standards, ensuring that every installation is carried out with utmost precision and using the best materials."
+				},
+				"5": {
+					"icon": "/assets/features-fast.svg",
+					"title": "Fast and Efficient Implementation",
+					"description": "We understand how important our clients' time is, which is why we ensure timeliness and efficiency in delivering our services."
+				}
+			}
+		},
+		"reviews": {
+			"title": "<span>Reviews</span> from Our Clients",
+			"action": "Add a review"
+		},
+		"cooperation": {
+			"title": "<span>We cooperate</span> with leading manufacturers"
+		}
+	},
+	"/oferta": {
+		"metadata": {
+			"title": "Offer - explore our projects and services!",
+			"description": "We provide comprehensive solutions in the field of cooling, air conditioning, and ventilation systems for businesses and homes. Our support includes consulting, designing, installation, and servicing."
+		},
+		"features": {
+			"subtitle": "Offer",
+			"title": "<span>Features</span> of our offer",
+			"description": "Our installations feature modern technologies that provide maximum comfort for users while taking care of the environment.",
+			"items": {
+				"0": {
+					"icon": "/assets/offer-quality.svg",
+					"title": "Highest Quality",
+					"description": "We work exclusively with renowned equipment manufacturers."
+				},
+				"1": {
+					"icon": "/assets/offer-efficiency.svg",
+					"title": "Efficiency",
+					"description": "Our systems are designed with maximum energy efficiency in mind."
+				},
+				"2": {
+					"icon": "/assets/offer-modernity.svg",
+					"title": "Modernity",
+					"description": "Device management and monitoring through mobile applications."
+				}
+			}
+		},
+		"realizations": {
+			"title": "Check Out <span>Our Projects</span>"
+		},
+		"oferta-dla-domu": {
+			"slug": "oferta-dla-domu",
+			"title": "Home Offer",
+			"header": {
+				"slug": "home-offer",
+				"title": "Home Offer",
+				"section": {
+					"0": {
+						"slug": "klimatyzacje",
+						"title": "Air Conditioners",
+						"description": "If you're considering purchasing an air conditioner, it's worth exploring products from leading brands like Daikin, Mitsubishi, Gree, and LG."
+					},
+					"1": {
+						"slug": "wentylacje",
+						"title": "Ventilation",
+						"description": "Heat recovery ventilation ensures a constant supply of fresh air while removing impurities such as dust, smog, and allergens."
+					},
+					"2": {
+						"slug": "pompy-ciepla",
+						"title": "Heat Pumps",
+						"description": "Heat pumps extract heat from the air or ground and transfer it to the home's heating system, maintaining a stable indoor temperature."
+					}
+				}
+			},
+			"offers": {
+				"0": {
+					"imageId": "oferta/oferta-dla-domu/offer_air_conditioning_xm9re6",
+					"title": "Air Conditioners",
+					"slug": "klimatyzacje",
+					"description": "We offer a wide range of air conditioning systems, including wall-mounted, ducted, cassette, and multi-split units. This allows us to tailor the system to the specific requirements of any home, regardless of its architecture or style.",
+					"footer": "Installation | Service | Sales"
+				},
+				"1": {
+					"imageId": "oferta/oferta-dla-domu/offer_ventilation_n2reb1",
+					"title": "Ventilation",
+					"slug": "wentylacje",
+					"description": "We provide comprehensive solutions that combine mechanical ventilation and heat recovery. This ensures fresh air in all rooms while minimizing heat loss and lowering utility bills.",
+					"footer": "Installation | Service | Sales"
+				},
+				"2": {
+					"imageId": "oferta/oferta-dla-domu/offer_heat_pump_lz1xc1",
+					"title": "Heat Pumps",
+					"slug": "pompy-ciepla",
+					"description": "We offer a wide range of heat pump solutions tailored to the individual needs of each home. Thanks to modern technologies, our systems provide comfort, savings, and environmental care.",
+					"footer": "Installation | Service | Sales"
+				}
+			},
+			"tabs": {
+				"0": { "title": "Air Conditioners", "slug": "klimatyzacje" },
+				"1": { "title": "Ventilation", "slug": "wentylacje" },
+				"2": { "title": "Heat Pumps", "slug": "pompy-ciepla" }
+			}
+		},
+		"oferta-dla-firm": {
+			"slug": "oferta-dla-firm",
+			"title": "Business Offer",
+			"header": {
+				"slug": "oferta-dla-firm",
+				"title": "Business Offer",
+				"section": {
+					"0": {
+						"slug": "klimatyzacje-przemyslowe",
+						"title": "Industrial Air Conditioners",
+						"description": "Industrial air conditioners can ensure the appropriate environmental conditions for technological processes."
+					},
+					"1": {
+						"slug": "wentylacje-przemyslowe",
+						"title": "Industrial Ventilation",
+						"description": "Industrial ventilation systems are responsible for removing contaminated air from rooms and replacing it with fresh air."
+					},
+					"2": {
+						"slug": "systemy-chlodnicze",
+						"title": "Refrigeration Systems",
+						"description": "Refrigeration systems are used to cool storage areas and in selected technological processes."
+					}
+				}
+			},
+			"offers": {
+				"0": {
+					"imageId": "oferta/oferta-dla-firm/offer_advanced_air_conditioning_dgq6kr",
+					"title": "Industrial Air Conditioners",
+					"slug": "klimatyzacje-przemyslowe",
+					"description": "We specialize in providing advanced air conditioning systems tailored to the specific needs of businesses. Our offerings include VRF systems, Split and Multi-Split systems, as well as precision and industrial air conditioning.",
+					"footer": "Installation | Service | Sales"
+				},
+				"1": {
+					"imageId": "oferta/oferta-dla-firm/offer_industrial_ventilation_ifprrk",
+					"title": "Industrial Ventilation",
+					"slug": "wentylacje-przemyslowe",
+					"description": "We design, install, and service efficient, reliable ventilation systems that improve air quality. We offer mechanical, spot, exhaust, and heat recovery ventilation systems.",
+					"footer": "Installation | Service | Sales"
+				},
+				"2": {
+					"imageId": "oferta/oferta-dla-firm/offer_advanced_refrigeration_gvyhuz",
+					"title": "Refrigeration Systems",
+					"slug": "systemy-chlodnicze",
+					"description": "We provide comprehensive solutions that ensure reliability, energy efficiency, and optimal storage conditions. Our offerings include industrial refrigeration systems, process cooling systems, and solutions for cold storage and freezers.",
+					"footer": "Installation | Service | Sales"
+				}
+			},
+			"tabs": {
+				"0": { "title": "Industrial Air Conditioners", "slug": "klimatyzacje-przemyslowe" },
+				"1": { "title": "Industrial Ventilation", "slug": "wentylacje-przemyslowe" },
+				"2": { "title": "Refrigeration Systems", "slug": "systemy-chlodnicze" }
+			}
+		}
+	},
+	"/kontakt": {
+		"metadata": {
+			"title": "Contact - Have a question? Get in touch with us!",
+			"description": "Our experienced team will prepare solutions tailored to your individual needs. Contact us via phone, email, or the contact form."
+		},
+		"header": {
+			"title": "Get in Touch with Us!",
+			"section": {
+				"0": {
+					"slug": "about-us",
+					"title": "About Us",
+					"description": "Want to know more about us? Learn what sets us apart from the competition and why you can trust us."
+				},
+				"1": {
+					"slug": "form",
+					"title": "Contact Form",
+					"description": "Have questions? Need a quote? Write to us, and our technical team will get back to you."
+				}
+			}
+		},
+		"aboutUs": {
+			"slug": "ofirmie",
+			"subtitle": "About Us",
+			"title": "The History of <span>Our Company</span>",
+			"description": "We specialize in comprehensive solutions in air conditioning, ventilation, heating, and refrigeration, providing services for both commercial and private clients. Since 2021, we have been delivering top-quality HVACR services using the latest technologies and innovative solutions. We strive for the highest quality in all the services we provide."
+		},
+		"features": {
+			"title": "Our <span>Strengths</span>",
+			"description": "Our projects include implementations for homes, apartments, businesses, office buildings, and public institutions.",
+			"items": {
+				"0": {
+					"icon": "/assets/contact-experience.svg",
+					"title": "Experience",
+					"description": "Since 2021, we have been delivering top-quality HVACR services."
+				},
+				"1": {
+					"icon": "/assets/contact-qualifications.svg",
+					"title": "Qualifications",
+					"description": "We regularly enhance our qualifications, as confirmed by the certificates we have obtained."
+				},
+				"2": {
+					"icon": "/assets/contact-review.svg",
+					"title": "Customer Reviews",
+					"description": "We take pride in the satisfaction of our clients, their feedback, and their recommendations."
+				}
+			}
+		},
+		"contact": {
+			"slug": "formularz",
+			"subtitle": "Contact",
+			"title": "<span>Have a Question?</span> Need a Quote?",
+			"description": "Our experienced team of specialists will prepare comprehensive solutions tailored to your individual needs. Whether you need assistance with the installation of a new system, regular maintenance, or purchasing equipment, contact us by phone, email, or fill out the form."
+		},
+		"contactForm": {
+			"title": "Write to Us!",
+			"namePlaceholder": "Enter your name",
+			"emailPlaceholder": "Enter your email address",
+			"phonePlaceholder": "Enter your phone number",
+			"subjectPlaceholder": "Select a subject",
+			"subjectItems": {
+				"quotation": {
+					"name": "Request a Quote"
+				},
+				"support": {
+					"name": "Support"
+				},
+				"other": {
+					"name": "Other"
+				}
+			},
+			"messagePlaceholder": "Write a message",
+			"terms": {
+				"termsPlaceholder": "I accept the privacy policy",
+				"href": "/privacy-policy"
+			},
+			"submitButton": "Send Message",
+			"success": "We will get back to you as soon as possible.",
+			"error": "Something went wrong, please try again!"
+		}
+	},
+
+	"/faq": {
+		"metadata": {
+			"title": "Frequently Asked Questions",
+			"description": "Do you have air conditioning or are you considering installation? See answers to the most frequently asked questions about air conditioning, heat pumps, ventilation, and refrigeration systems."
+		},
+		"header": {
+			"title": "Frequently Asked Questions",
+			"section": {
+				"0": {
+					"slug": "klimatyzacja",
+					"title": "Air Conditioning",
+					"description": "See the most frequently asked questions about air conditioning, such as 'What does the acronym HVACR stand for?'"
+				},
+				"1": {
+					"slug": "pompy-ciepla",
+					"title": "Heat Pumps",
+					"description": "See the most frequently asked questions about heat pumps, such as 'What are the types of heat pumps?'"
+				},
+				"2": {
+					"slug": "wentylacja",
+					"title": "Ventilation",
+					"description": "See the most frequently asked questions about ventilation systems, such as 'What is heat recovery?'"
+				},
+				"3": {
+					"slug": "chlodnictwo",
+					"title": "Refrigeration",
+					"description": "See the most frequently asked questions about refrigeration systems, such as 'What is a refrigerant?'"
+				}
+			}
+		},
+		"klimatyzacja": {
+			"slug": "klimatyzacja",
+			"title": "Air Conditioning",
+			"items": {
+				"0": {
+					"title": "What does the acronym HVACR stand for?",
+					"description": "HVACR (Heating, Ventilation, Air Conditioning, Refrigeration) refers to technologies related to thermal comfort, ventilation, and cooling in both residential and commercial buildings."
+				},
+				"1": {
+					"title": "How does air conditioning work?",
+					"description": "Air conditioning works by removing heat from the indoor air and transferring it outside. The system uses a refrigerant to absorb heat inside the unit and release it outdoors."
+				},
+				"2": {
+					"title": "What are the differences between split and multi-split systems?",
+					"description": "• Split systems: Consist of one indoor and one outdoor unit, suitable for single rooms.\n• Multi-split systems: Have one outdoor unit connected to multiple indoor units, suitable for multiple rooms."
+				},
+				"3": {
+					"title": "How often should air conditioning be serviced?",
+					"description": "Air conditioning should be serviced at least once a year to maintain efficiency and proper functioning."
+				},
+				"4": {
+					"title": "What is an air filter, and how often should it be replaced?",
+					"description": "Air filters remove dust, pollen, and other contaminants from the air. They should be replaced every 1-3 months, depending on usage and air quality."
+				},
+				"5": {
+					"title": "Can air conditioning be used for heating?",
+					"description": "Yes, many modern air conditioning systems have heating functions, utilizing heat pump technology."
+				},
+				"6": {
+					"title": "What are common air conditioning problems?",
+					"description": "• Poor cooling performance.\n• Refrigerant leaks.\n• Thermostat issues.\n• Clogged or dirty air filters.\n• Fan or compressor problems."
+				},
+				"7": {
+					"title": "How can I improve my air conditioning efficiency?",
+					"description": "• Clean or replace air filters regularly.\n• Ensure proper home insulation.\n• Keep outdoor units clean and debris-free.\n• Avoid setting the thermostat too low."
+				},
+				"8": {
+					"title": "Is air conditioning safe for health?",
+					"description": "Air conditioning is safe if properly maintained. Neglected systems may harbor mold or bacteria, posing health risks."
+				},
+				"9": {
+					"title": "What are the differences between portable and fixed air conditioning?",
+					"description": "• Portable: Easy to move, no installation required, but less efficient and noisier.\n• Fixed (split): Requires professional installation, more efficient, quieter, and aesthetically integrated into the room."
+				}
+			}
+		},
+		"pompy-ciepla": {
+			"slug": "pompy-ciepla",
+			"title": "Heat Pumps",
+			"items": {
+				"0": {
+					"title": "What is a heat pump?",
+					"description": "A heat pump converts energy from the environment (air, water, or ground) into heat for building heating and water heating, operating via a thermodynamic cycle."
+				},
+				"1": {
+					"title": "What are the types of heat pumps?",
+					"description": "• Air-source heat pumps (air-to-air, air-to-water): Extract heat from outdoor air.\n• Ground-source heat pumps (ground-to-water): Extract heat from the ground using vertical or horizontal collectors.\n• Water-source heat pumps (water-to-water): Extract heat from groundwater or surface water."
+				},
+				"2": {
+					"title": "What are the benefits of heat pumps?",
+					"description": "• Energy efficiency.\n• Eco-friendliness: Reduced CO2 emissions.\n• Versatility: Heating, cooling, and water heating.\n• Low operating costs."
+				},
+				"3": {
+					"title": "Do heat pumps work in cold climates?",
+					"description": "Yes, modern heat pumps are designed to operate efficiently in low temperatures, though their efficiency decreases in extreme cold."
+				},
+				"4": {
+					"title": "What are the installation costs of heat pumps?",
+					"description": "Costs vary by type, house size, and installation specifics. Ground-source systems are generally more expensive due to drilling requirements but offer long-term savings."
+				},
+				"5": {
+					"title": "Do heat pumps require much space?",
+					"description": "Air-source systems need outdoor space for the external unit. Ground-source systems require space for probes or collectors."
+				},
+				"6": {
+					"title": "Are heat pumps noisy?",
+					"description": "Modern heat pumps are designed to operate quietly. Any unusual noise may indicate installation or maintenance issues."
+				},
+				"7": {
+					"title": "What are the maintenance requirements for heat pumps?",
+					"description": "Heat pumps require annual inspections to check refrigerant levels, filter condition, and overall system health."
+				},
+				"8": {
+					"title": "Do heat pumps need permits for installation?",
+					"description": "Usually, permits are not required, but it's advisable to check local building regulations."
+				},
+				"9": {
+					"title": "How long does heat pump installation take?",
+					"description": "Installation times vary: simple air-to-air systems take days, while ground-source systems can take weeks."
+				}
+			}
+		},
+		"wentylacja": {
+			"slug": "wentylacja",
+			"title": "Ventilation",
+			"items": {
+				"0": {
+					"title": "What is ventilation and why is it important?",
+					"description": "Ventilation is the process of exchanging air in indoor spaces, ensuring the supply of fresh air and the removal of polluted air. It is essential for maintaining a healthy and comfortable indoor environment, reducing humidity, preventing mold growth, and removing pollutants and allergens."
+				},
+				"1": {
+					"title": "What are the types of ventilation systems?",
+					"description": "• Natural ventilation: Based on the natural airflow through windows, doors, and ventilation ducts.\n• Mechanical ventilation: Systems with fans that force air circulation, e.g., exhaust ventilation, supply-exhaust ventilation with heat recovery.\n• Hybrid ventilation: A combination of natural and mechanical ventilation."
+				},
+				"2": {
+					"title": "What is heat recovery?",
+					"description": "Heat recovery is the process of capturing heat from the air being exhausted from a building and using it to warm the fresh air being supplied. It helps reduce energy loss and improves the energy efficiency of the building."
+				},
+				"3": {
+					"title": "What are the benefits of using mechanical ventilation with heat recovery?",
+					"description": "• Improved indoor air quality.\n• Reduced heating costs through heat recovery.\n• Continuous supply of fresh air.\n• Reduced humidity and risk of mold growth."
+				},
+				"4": {
+					"title": "How often should a ventilation system be serviced?",
+					"description": "Ventilation systems should be serviced at least once a year. Regular inspections and cleaning help maintain efficiency and ensure good air quality."
+				},
+				"5": {
+					"title": "What are the signs of ventilation problems?",
+					"description": "• Stuffy and polluted indoor air.\n• Excess humidity and condensation on windows.\n• Lingering odors indoors.\n• Issues with mold and mildew.\n• Increased dust and allergens."
+				},
+				"6": {
+					"title": "Is mechanical ventilation noisy?",
+					"description": "Modern ventilation systems are designed to operate quietly. Noise may result from improper installation, worn-out components, or lack of servicing. Regular inspections and maintenance help keep noise levels low."
+				},
+				"7": {
+					"title": "What filters are used in ventilation systems, and how often should they be replaced?",
+					"description": "Ventilation systems use various types of filters, including basic filters (G3, G4), fine filters (F7, F9), and HEPA filters. Replacement frequency depends on the filter type and operating conditions but is typically every 3 to 6 months."
+				},
+				"8": {
+					"title": "Does mechanical ventilation affect energy consumption?",
+					"description": "Yes, mechanical ventilation uses electricity to power the fans. However, systems with heat recovery can significantly reduce heating costs by recovering heat from the exhaust air."
+				},
+				"9": {
+					"title": "Can I install a ventilation system myself?",
+					"description": "Installing a ventilation system requires specialist knowledge and skills, so it is recommended to have it done by professionals. Incorrect installation can result in ineffective system performance, excessive noise, and other issues."
+				}
+			}
+		},
+		"chlodnictwo": {
+			"slug": "chlodnictwo",
+			"title": "Refrigeration",
+			"items": {
+				"0": {
+					"title": "What is refrigeration?",
+					"description": "Refrigeration is the process of removing heat from a specific place or substance to lower and maintain its temperature below the ambient level. It is used in various fields such as food storage, air conditioning, industrial production, and more."
+				},
+				"1": {
+					"title": "How does a refrigeration system work?",
+					"description": "A refrigeration system operates based on the refrigeration cycle, which consists of four main stages:\n1. Evaporation: The refrigerant absorbs heat from the cooled space or device, transitioning from a liquid to a gas.\n2. Compression: The gaseous refrigerant is compressed, increasing its temperature.\n3. Condensation: The hot, compressed gas passes through a condenser, releasing heat to the outside and returning to a liquid state.\n4. Expansion: The liquid refrigerant goes through an expansion valve, lowering its pressure and temperature, enabling it to evaporate again."
+				},
+				"2": {
+					"title": "What are the types of refrigeration systems?",
+					"description": "• Domestic refrigeration: Refrigerators, freezers.\n• Commercial refrigeration: Store coolers, cold rooms, food storage equipment in restaurants.\n• Industrial refrigeration: Cooling systems in the chemical, pharmaceutical, and food industries."
+				},
+				"3": {
+					"title": "What is a refrigerant?",
+					"description": "A refrigerant is a chemical substance that circulates within the refrigeration system, absorbing and releasing heat as it changes from a liquid to a gas and back. Common refrigerants include R-134a, R-410A, R-22 (being phased out), among others."
+				},
+				"4": {
+					"title": "How often should a refrigeration system be serviced?",
+					"description": "Refrigeration systems should be serviced regularly, at least once a year, to ensure proper and efficient operation. Regular servicing helps identify and fix issues before they become serious."
+				},
+				"5": {
+					"title": "What are the most common problems with refrigeration systems?",
+					"description": "• Refrigerant leaks.\n• Compressor issues.\n• Faulty fans.\n• Dirty or clogged condensers and evaporators.\n• Thermostat malfunctions."
+				},
+				"6": {
+					"title": "How can I improve the efficiency of my refrigeration system?",
+					"description": "• Regularly clean and maintain the system.\n• Avoid frequently opening the doors of refrigeration units.\n• Ensure door seals are in good condition.\n• Do not overload the unit to allow proper air circulation."
+				},
+				"7": {
+					"title": "Does a refrigeration system consume a lot of energy?",
+					"description": "Energy consumption depends on the size and type of the refrigeration system, its energy efficiency, and usage. Modern refrigeration units are generally more energy-efficient than older models."
+				},
+				"8": {
+					"title": "Can I repair a refrigeration system myself?",
+					"description": "Some minor repairs, such as cleaning the air filter or replacing door seals, can be done yourself. However, more serious issues, especially those involving the refrigerant or compressor, should be handled by a qualified technician."
+				},
+				"9": {
+					"title": "What should I do if my refrigeration system stops working?",
+					"description": "If the refrigeration system stops working, check basic issues like power supply, thermostat settings, and door seals. If the problem persists, contact a professional service for diagnosis and repair."
+				}
+			}
+		}
+	}
+}

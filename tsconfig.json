@@ -1,0 +1,60 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"target": "ESNext",
+		"composite": false,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"noUnusedParameters": false,
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"incremental": true,
+		"module": "esnext",
+		"allowJs": true,
+		"noEmit": true,
+		"jsx": "preserve",
+		"baseUrl": ".",
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@ui/*": ["./src/ui/atoms/*", "./src/ui/molecules/*", "./src/ui/organisms/*"]
+		}
+	},
+	"include": [
+		"next-env.d.ts",
+		"*/src/i18n/request.ts",
+		"i18n.d.ts",
+		"eslint.config.js",
+		"**/*.mjs",
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts"
+	],
+	"exclude": ["node_modules", ".next"]
+}

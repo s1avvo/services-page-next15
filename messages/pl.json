@@ -1,0 +1,592 @@
+{
+	"Global": {
+		"metadata": {
+			"title": "KLIMA | Montaż klimatyzacji oraz innych systemów chłodniczych i wentylacyjnych.",
+			"description": "Zapewniamy kompleksowe rozwiązania w dziedzinie systemów chłodniczych, klimatyzacyjnych oraz wentylacyjnych. Oferujemy montaż, serwis oraz sprzedaż urządzeń i systemów chłodniczych.",
+			"openGraph": {
+				"title": "KLIMA | Montaż klimatyzacji oraz innych systemów chłodniczych i wentylacyjnych.",
+				"description": "Zapewniamy kompleksowe rozwiązania w dziedzinie systemów chłodniczych, klimatyzacyjnych oraz wentylacyjnych.",
+				"images": {
+					"url": "/og_image.png",
+					"alt": "KLIMA | Montaż - Serwis - Sprzedaż"
+				}
+			}
+		},
+		"notFound": {
+			"subtitle": "Błąd 404",
+			"title": "Nie znaleziono strony",
+			"description": "Przepraszamy, strona której szukasz nie istnieje.",
+			"goBackLink": "Strona główna",
+			"other": {
+				"title": "Zobacz nasze inne podstrony:",
+				"pages": [
+					{
+						"title": "Oferta dla domu",
+						"link": "/oferta/oferta-dla-domu"
+					},
+					{
+						"title": "Oferta dla firm",
+						"link": "/oferta/oferta-dla-firm"
+					},
+					{
+						"title": "Kontakt",
+						"link": "/kontakt"
+					},
+					{
+						"title": "FAQ",
+						"link": "/faq"
+					}
+				]
+			}
+		},
+		"errorGloba": {
+			"title": "Coś poszło nie tak!",
+			"moreDetails": "Zobacz więcej...",
+			"action": "Spróbuj ponownie!"
+		},
+		"error": {
+			"title": "Coś poszło nie tak!",
+			"description": "Przepraszamy, wystąpił jakiś błąd. Spróbuje ponownie",
+			"goBackLink": "Strona główna"
+		},
+		"language": {
+			"namePlaceholder": "PL"
+		},
+		"navigation": {
+			"0": { "label": "Oferta dla domu", "href": "/oferta/oferta-dla-domu" },
+			"1": { "label": "Oferta dla firm", "href": "/oferta/oferta-dla-firm" },
+			"2": { "label": "Kontakt", "href": "/kontakt" },
+			"3": { "label": "FAQ", "href": "/faq" }
+		},
+		"footer": {
+			"contact": {
+				"header": "Kontakt"
+			},
+
+			"offer": {
+				"header": "Nasza oferta",
+				"links": {
+					"0": { "label": "Oferta dla domu", "href": "/oferta/oferta-dla-domu" },
+					"1": { "label": "Oferta dla firm", "href": "/oferta/oferta-dla-firm" }
+				}
+			},
+			"info": {
+				"header": "Informacje",
+				"links": {
+					"0": { "label": "Kontakt", "href": "/kontakt" },
+					"1": { "label": "Polityka prywatności", "href": "/polityka-prywatnosci" },
+					"2": { "label": "Regulamin", "href": "/regulamin" }
+				}
+			}
+		},
+		"newsletter": {
+			"title": "Nasz newsletter",
+			"description": "Chcesz być na bieżąco z naszymi nowościami? Szukasz okazji na promocyjny zakup klimatyzacji? Zasubskrybuj nasz newsletter, a my damy Ci znać o wszsytkich naszych promocjach.",
+			"emailPlaceholder": "Podaj swój email",
+			"submitButton": "Wyślij",
+			"success": "Zapisałeś sie na nasz newsletter",
+			"error": "Coś poszło nie tak, spróbuj ponownie!"
+		}
+	},
+
+	"/": {
+		"hero": {
+			"title": "Twój KLIMAT <span>w dobrych rękach!</span>",
+			"description": "Kompleksowe rozwiązania w dziedzinie systemów chłodniczych, klimatyzacyjnych oraz wentylacyjnych dostosowane do potrzeb zarówno klientów indywidualnych, jak i komercyjnych.",
+			"action": "Nasza oferta"
+		},
+		"offer": {
+			"subtitle": "Oferta",
+			"title": "Nasza oferta rozwiązań <span>HVACR</span>",
+			"description": "Obejmuje kompleksowe systemy klimatyzacji, wentylacji, chłodnictwa i ogrzewania, które są dostosowane do potrzeb zarówno klientów indywidualnych, jak i komercyjnych. Zapewniamy projektowanie, instalację oraz serwisowanie zaawansowanych technologicznie urządzeń, które gwarantują optymalną wydajność energetyczną i komfort użytkowników. Nasze rozwiązania charakteryzują się innowacyjnością, niezawodnością oraz zgodnością z najwyższymi standardami jakości i bezpieczeństwa. Oferujemy indywidualne doradztwo oraz wsparcie techniczne na każdym etapie.",
+			"items": {
+				"forBusiness": {
+					"link": "/oferta/oferta-dla-firm",
+					"title": "Oferta dla firm",
+					"imageId": "offer_for_business_eeme4w"
+				},
+				"forHome": {
+					"link": "/oferta/oferta-dla-domu",
+					"title": "Oferta dla domu",
+					"imageId": "offer_for_home_srz6xo"
+				}
+			}
+		},
+		"features": {
+			"subtitle": "O firmie",
+			"title": "Dlaczego <span>my?</span>",
+			"description": "Nasze rozwiązania charakteryzują się innowacyjnością, niezawodnością oraz zgodnością z najwyższymi standardami jakości i bezpieczeństwa.",
+			"items": {
+				"0": {
+					"icon": "/assets/features-exp.svg",
+					"title": "Doświadczenie",
+					"description": "Posiadamy wieloletnie doświadczenie w branży HVACR, co pozwala nam oferować usługi na najwyższym poziomie. Nasi wykwalifikowani technicy regularnie uczestniczą w szkoleniach."
+				},
+				"1": {
+					"icon": "/assets/features-service.svg",
+					"title": "Kompleksowa Obsługa",
+					"description": "Oferujemy pełen zakres usług, od doradztwa i projektowania, przez montaż systemów HVACR, wsparcie techniczne i konserwację systemów po instalacji."
+				},
+				"2": {
+					"icon": "/assets/features-approach.svg",
+					"title": "Indywidualne Podejście",
+					"description": "Dokładnie analizujemy potrzeby i oczekiwania naszych klientów. Oferujemy rozwiązania gwarantujące maksymalny komfort, wygląd oraz długotrwałe oszczędności."
+				},
+				"3": {
+					"icon": "/assets/features-quality.svg",
+					"title": "Jakość Produktów",
+					"description": "Współpracujemy wyłącznie z renomowanymi producentami. Dzięki temu możemy gwarantować niezawodność i długowieczność naszych instalacji."
+				},
+				"4": {
+					"icon": "/assets/features-cost.svg",
+					"title": "Konkurencyjne Ceny",
+					"description": "Nasze ceny idą w parze z wysokim standardem, które zapewniają, że każda instalacja jest wykonana z najwyższą starannością i przy użyciu najlepszych materiałów."
+				},
+				"5": {
+					"icon": "/assets/features-fast.svg",
+					"title": "Szybka i Skuteczna Realizacja",
+					"description": "Rozumiemy, jak ważny jest czas naszych klientów, dlatego dbamy o terminowość i sprawność realizacji naszych usług."
+				}
+			}
+		},
+		"reviews": {
+			"title": "<span>Opinie</span> Naszych Klientów",
+			"action": "Dodaj opinie"
+		},
+		"cooperation": {
+			"title": "<span>Współpracujemy</span> z wiodącymi producentami"
+		}
+	},
+	"/oferta": {
+		"metadata": {
+			"title": "Oferta - zobacz nasze ralizację oraz ofertę!",
+			"description": "Zapewniamy kompleksowe rozwiązania w dziedzinie systemów chłodniczych, klimatyzacyjnych oraz wentylacyjnych dla firm oraz domu. Oferujemy wsparcie, które obejmuje doradztwo, projektowanie, montaż oraz serwis."
+		},
+		"features": {
+			"subtitle": "Oferta",
+			"title": "<span>Cechy</span> naszej oferty",
+			"description": "Nasze instalacje oferują nowoczesne technologie, które zapewniają maksymalny komfort użytkownikom przy jednoczesnym dbaniu o środowisko.",
+			"items": {
+				"0": {
+					"icon": "/assets/offer-quality.svg",
+					"title": "Najwyższa jakość",
+					"description": "Współpracujemy wyłącznie z renomowanymi producentami urządzeń."
+				},
+				"1": {
+					"icon": "/assets/offer-efficiency.svg",
+					"title": "Efektywność",
+					"description": "Nasze systemy zostały zaprojektowane z myślą o maksymalnej efektywności energetycznej."
+				},
+				"2": {
+					"icon": "/assets/offer-modernity.svg",
+					"title": "Nowoczesność",
+					"description": "Zarządzanie i monitorowanie urządzeń za pomocą aplikacji mobilnych."
+				}
+			}
+		},
+		"realizations": {
+			"title": "Zobacz <span>Nasze Realizacje</span>"
+		},
+		"oferta-dla-domu": {
+			"slug": "oferta-dla-domu",
+			"title": "Oferta dla domu",
+			"header": {
+				"slug": "oferta-dla-domu",
+				"title": "Oferta dla domu",
+				"section": {
+					"0": {
+						"slug": "klimatyzacje",
+						"title": "Klimatyzacje",
+						"description": "Jeśli zastanawiasz się nad zakupem klimatyzatora, warto rozważyć produkty czołowych marek, takich jak , Daikin, Mitsubishi, Gree oraz LG."
+					},
+					"1": {
+						"slug": "wentylacje",
+						"title": "Wentylacje",
+						"description": "Rekuperacja zapewnia stały dopływ świeżego powietrza, usuwając z niego zanieczyszczenia z kurzu, smogu i alergenów."
+					},
+					"2": {
+						"slug": "pompy-ciepla",
+						"title": "Pompy ciepła",
+						"description": "Pompy ciepła pobierają ciepło z powietrza lub gruntu i przenoszą je do domowej instalacji grzewczej, zapewniając stabilną temperaturę w pomieszczeniu."
+					}
+				}
+			},
+			"offers": {
+				"0": {
+					"imageId": "oferta/oferta-dla-domu/offer_air_conditioning_xm9re6",
+					"title": "Klimatyzacje",
+					"slug": "klimatyzacje",
+					"description": "Oferujemy szeroki wybór systemów klimatyzacyjnych, w tym jednostki ścienne, kanałowe, kasetonowe oraz multisplit. Dzięki temu możemy dostosować system do specyficznych wymagań każdego domu, niezależnie od jego architektury i stylu.",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				},
+				"1": {
+					"imageId": "oferta/oferta-dla-domu/offer_ventilation_n2reb1",
+					"title": "Wentylacje",
+					"slug": "wentylacje",
+					"description": "Proponujemy kompleksowe rozwiązania, które łączą funkcje wentylacji mechanicznej i rekuperacji ciepła. Dzięki temu zapewniamy świeże powietrze we wszystkich pomieszczeniach, jednocześnie minimalizując straty ciepła i obniżając rachunki.",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				},
+				"2": {
+					"imageId": "oferta/oferta-dla-domu/offer_heat_pump_lz1xc1",
+					"title": "Pompy ciepła",
+					"slug": "pompy-ciepla",
+					"description": "Zapewniamy szeroką gamę rozwiązań z zakresu pomp ciepła, które dostosowane są do indywidualnych potrzeb każdego domu. Dzięki nowoczesnym technologiom, nasze systemy zapewniają komfort, oszczędność i dbałość o środowisko.",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				}
+			},
+			"tabs": {
+				"0": { "title": "Klimatyzacje", "slug": "klimatyzacje" },
+				"1": { "title": "Wentylacje", "slug": "wentylacje" },
+				"2": { "title": "Pompy ciepła", "slug": "pompy-ciepla" }
+			}
+		},
+		"oferta-dla-firm": {
+			"slug": "oferta-dla-firm",
+			"title": "Oferta dla firm",
+			"header": {
+				"slug": "oferta-dla-firm",
+				"title": "Oferta dla firm",
+				"section": {
+					"0": {
+						"slug": "klimatyzacje-przemyslowe",
+						"title": "Klimatyzacje przemysłowe",
+						"description": "Klimatyzatory przemysłowe są w stanie zapewnić procesowi technologicznemu odpowiednie warunki środowiskowe."
+					},
+					"1": {
+						"slug": "wentylacje-przemyslowe",
+						"title": "Wentylacje przemysłowe",
+						"description": "Wentylacje przemysłowe odpowiadają za usuwanie z pomieszczeń zanieczyszczonego powietrza i dostarczania w jego miejsce powietrza świeżego."
+					},
+					"2": {
+						"slug": "systemy-chlodnicze",
+						"title": "Systemy chłodnicze",
+						"description": "Systemy chłodnicze wykorzystuje się do chłodzenia przestrzeni przechowywania, jak również w wybranych procesach technologicznych."
+					}
+				}
+			},
+			"offers": {
+				"0": {
+					"imageId": "oferta/oferta-dla-firm/offer_advanced_air_conditioning_dgq6kr",
+					"title": "Klimatyzacje przemysłowe",
+					"slug": "klimatyzacje-przemyslowe",
+					"description": "Specjalizujemy się w dostarczaniu zaawansowanych systemów klimatyzacyjnych, dostosowanych do specyficznych potrzeb firm. Oferujemy m.in. systemy VRF, Split i Multi-Split, a także klimatyzację precyzyjną i przemysłową.",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				},
+				"1": {
+					"imageId": "oferta/oferta-dla-firm/offer_industrial_ventilation_ifprrk",
+					"title": "Wentylacje przemysłowe",
+					"slug": "wentylacje-przemyslowe",
+					"description": "Zajmujemy się projektowaniem, instalacją i serwisowaniem wydajnych, niezawodnych systemów wentylacyjnych, które poprawiają jakość powietrza. Oferujemy m.in. systemy wentylacji mechanicznej, punktowej, wyciągowej oraz rekuperacyjne (odzysk ciepła).",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				},
+				"2": {
+					"imageId": "oferta/oferta-dla-firm/offer_advanced_refrigeration_gvyhuz",
+					"title": "Systemy chłodnicze",
+					"slug": "systemy-chlodnicze",
+					"description": "Oferujemy kompleksowe rozwiązania, które zapewniają niezawodność, efektywność energetyczną oraz optymalne warunki przechowywania. Oferujemy m.in. przemysłowe systemy chłodnicze, systemy chłodzenia procesowego, a także chłodni i mroźni.",
+					"footer": "Montaż | Serwis | Sprzedaż"
+				}
+			},
+			"tabs": {
+				"0": { "title": "Klimatyzacje przemysłowe", "slug": "klimatyzacje-przemyslowe" },
+				"1": { "title": "Wentylacje przemysłowe", "slug": "wentylacje-przemyslowe" },
+				"2": { "title": "Systemy chłodnicze", "slug": "systemy-chlodnicze" }
+			}
+		}
+	},
+	"/kontakt": {
+		"metadata": {
+			"title": "Kontakt - Masz pytanie? Skontaktuj się z nami!",
+			"description": "Nasz doświadczony zespół przygotuje rozwiązania dostosowane do Twoich indywidualnych potrzeb. Zapraszamy do kontaktu telefonicznie, drogą e-mailową lub przez formularz kontaktowy."
+		},
+		"header": {
+			"title": "Skontaktuj się z nami!",
+			"section": {
+				"0": {
+					"slug": "ofirmie",
+					"title": "O firmie",
+					"description": "Chcesz dowiedzieć się więcej o nas? Zobacz, co wyróżnia nas na tle konkurencji i dlaczego warto nam zaufać."
+				},
+				"1": {
+					"slug": "formularz",
+					"title": "Formularz kontaktowy",
+					"description": "Masz pytania? Potrzebujesz wyceny? Napisz do nas, a nasz dział techniczny skontaktuje się z Tobą."
+				}
+			}
+		},
+		"aboutUs": {
+			"slug": "ofirmie",
+			"subtitle": "O Firmie",
+			"title": "Historia <span>Naszej firmy</span>",
+			"description": "Specjalizujemy się w kompleksowych rozwiązaniach w zakresie klimatyzacji, wentylacji, ogrzewania i chłodnictwa, świadcząc usługi dla klientów komercyjnych i prywatnych. Od 2021 roku dostarczamy najwyższej jakości usługi HVACR, stosując najnowsze technologie i innowacyjne rozwiązania. Dbamy o najwyższą jakość świadczonych przez nas usług."
+		},
+		"features": {
+			"title": "Nasze <span>atuty</span>",
+			"description": "Nasze projekty obejmują realizacje dla domu, mieszkań, dla firm, biurowców oraz instytucji publicznych.",
+			"items": {
+				"0": {
+					"icon": "/assets/contact-experience.svg",
+					"title": "Doświadczenie",
+					"description": "Od 2021 roku dostarczamy najwyższej jakości usługi HVACR."
+				},
+				"1": {
+					"icon": "/assets/contact-qualifications.svg",
+					"title": "Kwalifikacje",
+					"description": "Regularnie podnosimy kwalifikacje, co potwierdzają zdobyte certyfikaty."
+				},
+				"2": {
+					"icon": "/assets/contact-review.svg",
+					"title": "Opinie klientów",
+					"description": "Jesteśmy dumni z zadowolenia naszych klientów, ich opinie i referencji."
+				}
+			}
+		},
+		"contact": {
+			"slug": "formularz",
+			"subtitle": "Kontakt",
+			"title": "<span>Masz pytanie?</span> Potrzebujesz wyceny?",
+			"description": "Nasz doświadczony zespół specjalistów przygotuje kompleksowe rozwiązania dostosowane do Twoich indywidualnych potrzeb. Bez względu na to, czy potrzebujesz pomocy przy montażu nowej instalacji, regularnym serwisie, czy zakupie urządzenia. Skontaktuj się z nami telefonicznie, drogą mailową lub wypełnij formularz."
+		},
+		"contactForm": {
+			"title": "Napisz do nas!",
+			"namePlaceholder": "Podaj imię i nazwisko",
+			"emailPlaceholder": "Podaj adres email",
+			"phonePlaceholder": "Podaj numer telefonu",
+			"subjectPlaceholder": "Wybierz temat",
+			"subjectItems": {
+				"quotation": {
+					"name": "Prośba o wycenę"
+				},
+				"support": {
+					"name": "Pomoc"
+				},
+				"other": {
+					"name": "Inne"
+				}
+			},
+			"messagePlaceholder": "Napisz wiadomość",
+			"terms": {
+				"termsPlaceholder": "Akceptuję politykę prywatności",
+				"href": "/polityka-prywatnosci"
+			},
+			"submitButton": "Wyślij wiadomość",
+			"success": "Skontktujemy się z Tobą tak szybko jak to możliwe.",
+			"error": "Coś poszło nie tak, spróbuj ponownie!"
+		}
+	},
+	"/faq": {
+		"metadata": {
+			"title": "Najczęściej zadawane pytania",
+			"description": "Masz klimatyzację lub zastanawiasz się nad montażem? Zobacz odpowiedzi na najczęściej zadawane pytania odnośnie klimatyzacji, pomp ciepła oraz systemów wentylacyjnych i chłodniczych"
+		},
+		"header": {
+			"title": "Najczęściej zadawane pytania",
+			"section": {
+				"0": {
+					"slug": "klimatyzacja",
+					"title": "Klimatyzacja",
+					"description": "Zobacz najczęściej zadawane pytania dotyczące klimatyzacji, np. \"Co oznacza skrót HVACR?\""
+				},
+				"1": {
+					"slug": "pompy-ciepla",
+					"title": "Pompy ciepła",
+					"description": "Zobacz najczęściej zadawane pytania dotyczące pomp ciepła, np. \"Jakie są rodzaje pomp ciepła?\""
+				},
+				"2": {
+					"slug": "wentylacja",
+					"title": "Wentylacja",
+					"description": "Zobacz najczęściej zadawane pytania dotyczące systemów wentylacyjnych, np. \"Co to jest rekuperacja?\""
+				},
+				"3": {
+					"slug": "chlodnictwo",
+					"title": "Chłodnictwo",
+					"description": "Zobacz najczęściej zadawane pytania dotyczące systemów chłodniczych, np. \"Co to jest czynnik chłodniczy\""
+				}
+			}
+		},
+		"klimatyzacja": {
+			"slug": "klimatyzacja",
+			"title": "Klimatyzacja",
+			"items": {
+				"0": {
+					"title": "Co oznacza skrót HVACR?",
+					"description": "HVACR (ang. Heating, Ventilation, Air Conditioning, Refrigeration), to w tłumaczeniu na j. polski: Ogrzewanie, Wentylacja, Klimatyzacja, Chłodnictwo. Skrót odnosi się do technologii związanych z zapewnieniem komfortu termicznego, wentylacji oraz chłodzenia zarówno w budynkach mieszkalnych, jak i komercyjnych."
+				},
+				"1": {
+					"title": "Jak działa klimatyzacja?",
+					"description": "Klimatyzacja działa na zasadzie usuwania ciepła z wnętrza pomieszczenia i przenoszenia go na zewnątrz. Wewnątrz jednostki klimatyzacyjnej znajduje się czynnik chłodniczy, który absorbuje ciepło z powietrza wewnętrznego, a następnie przemieszcza je na zewnątrz, gdzie jest rozpraszane."
+				},
+				"2": {
+					"title": "Jakie są różnice między systemami split a systemami multi-split?",
+					"description": "• Systemy split: Składają się z jednej jednostki wewnętrznej i jednej jednostki zewnętrznej. Są odpowiednie do pojedynczych pomieszczeń.\n• Systemy multi-split: Posiadają jedną jednostkę zewnętrzną i wiele jednostek wewnętrznych. Są odpowiednie do chłodzenia i ogrzewania wielu pomieszczeń."
+				},
+				"3": {
+					"title": "Jak często należy serwisować klimatyzację?",
+					"description": "Serwis klimatyzacji powinien być wykonywany przynajmniej raz w roku. Regularne przeglądy pomagają w utrzymaniu urządzenia w dobrym stanie technicznym i zapewniają jego efektywne działanie."
+				},
+				"4": {
+					"title": "Co to jest filtr powietrza i jak często należy go wymieniać?",
+					"description": "Filtr powietrza w klimatyzacji usuwa z powietrza kurz, pyłki i inne zanieczyszczenia. Wymianę filtra zaleca się średnio co 1-3 miesiące, w zależności od intensywności użytkowania oraz jakości powietrza w pomieszczeniu."
+				},
+				"5": {
+					"title": "Czy klimatyzacja może służyć do ogrzewania?",
+					"description": "Tak, wiele nowoczesnych systemów klimatyzacyjnych posiada funkcję ogrzewania. Są to tzw. pompy ciepła, które mogą dostarczać ciepło do pomieszczenia, korzystając z energii zewnętrznej."
+				},
+				"6": {
+					"title": "Jakie są najczęstsze problemy z klimatyzacją?",
+					"description": "• Słabe chłodzenie lub brak chłodzenia.\n• Wycieki czynnika chłodniczego.\n• Problemy z termostatem.\n• Zatkane lub brudne filtry powietrza.\n• Problemy z wentylatorem lub sprężarką."
+				},
+				"7": {
+					"title": "Jak mogę poprawić efektywność mojej klimatyzacji?",
+					"description": "• Regularnie czyść lub wymieniaj filtry powietrza.\n• Zapewnij odpowiednią izolację domu.\n• Utrzymuj jednostki zewnętrzne w czystości i wolne od zanieczyszczeń.\n• Unikaj ustawiania termostatu na zbyt niską temperaturę."
+				},
+				"8": {
+					"title": "Czy klimatyzacja jest bezpieczna dla zdrowia?",
+					"description": "Klimatyzacja jest bezpieczna dla zdrowia, o ile jest prawidłowo utrzymywana i regularnie serwisowana. Urządzenia, które nie są serwisowane mogą gromadzić pleśń i bakterie, co może prowadzić do problemów zdrowotnych."
+				},
+				"9": {
+					"title": "Jakie są różnice między klimatyzacją przenośną a stałą?",
+					"description": "• Klimatyzacja przenośna: Łatwa do przenoszenia, nie wymaga instalacji, ale może być mniej wydajna i głośniejsza.\n• Klimatyzacja stała (split): Wymaga profesjonalnej instalacji, jest bardziej wydajna, cichsza i estetycznie wkomponowana w pomieszczenie."
+				}
+			}
+		},
+		"pompy-ciepla": {
+			"slug": "pompy-ciepla",
+			"title": "Pompy ciepła",
+			"items": {
+				"0": {
+					"title": "Co to jest pompa ciepła?",
+					"description": "Pompa ciepła to urządzenie, które przetwarza energię z otoczenia (powietrza, wody lub gruntu) na ciepło wykorzystywane do ogrzewania budynków oraz podgrzewania wody użytkowej. Działa na zasadzie obiegu termodynamicznego, podobnie jak lodówka, ale w przeciwnym kierunku."
+				},
+				"1": {
+					"title": "Jakie są rodzaje pomp ciepła?",
+					"description": "• Powietrzne pompy ciepła (powietrze-powietrze, powietrze-woda): Pobierają ciepło z powietrza zewnętrznego.\n• Pompy ciepła gruntowe (grunt-woda): Pobierają ciepło z gruntu za pomocą sond pionowych lub kolektorów poziomych.\n• Pompy ciepła wodne (woda-woda): Pobierają ciepło z wód gruntowych lub powierzchniowych."
+				},
+				"2": {
+					"title": "Jakie są zalety pomp ciepła?",
+					"description": "• Energooszczędność: Pompy ciepła zużywają mniej energii w porównaniu do tradycyjnych systemów grzewczych.\n• Ekologiczność: Redukują emisję CO2, ponieważ wykorzystują odnawialne źródła energii.\n• Wielofunkcyjność: Mogą być używane do ogrzewania, chłodzenia oraz podgrzewania wody.\n• Niskie koszty eksploatacji: Pompy ciepła są tańsze w eksploatacji niż systemy oparte na paliwach kopalnych."
+				},
+				"3": {
+					"title": "Czy pompy ciepła działają w zimnym klimacie?",
+					"description": "Tak, nowoczesne pompy ciepła są zaprojektowane tak, aby działać efektywnie nawet przy niskich temperaturach zewnętrznych. Wydajność pompy ciepła spada przy ekstremalnie niskich temperaturach, ale wciąż jest to opłacalne rozwiązanie w porównaniu do tradycyjnych systemów grzewczych."
+				},
+				"4": {
+					"title": "Jakie są koszty instalacji pompy ciepła?",
+					"description": "Koszty instalacji zależą od rodzaju pompy ciepła, wielkości domu oraz specyfiki instalacji. Pompy ciepła gruntowe są zazwyczaj droższe w instalacji niż powietrzne, ze względu na konieczność wykonania odwiertów. Mimo wyższych kosztów początkowych, inwestycja może się zwrócić w ciągu kilku lat dzięki niższym kosztom eksploatacji."
+				},
+				"5": {
+					"title": "Czy pompa ciepła wymaga dużo miejsca?",
+					"description": "Powietrzne pompy ciepła wymagają przestrzeni na zewnątrz budynku do umieszczenia jednostki zewnętrznej. Gruntowe pompy ciepła potrzebują miejsca na sondy lub kolektory, co może wymagać większej przestrzeni na działce."
+				},
+				"6": {
+					"title": "Czy pompy ciepła są hałaśliwe?",
+					"description": "Nowoczesne pompy ciepła są projektowane tak, aby działały cicho. Jednostki zewnętrzne mogą generować pewien poziom hałasu, ale jest on zazwyczaj akceptowalny i porównywalny do dźwięku klimatyzatora."
+				},
+				"7": {
+					"title": "Jakie są wymagania konserwacyjne dla pomp ciepła?",
+					"description": "Pompy ciepła wymagają regularnej konserwacji, aby zapewnić ich efektywne działanie. Zaleca się przeglądy co roku, aby sprawdzić poziomy czynnika chłodniczego, stan filtrów i ogólną sprawność systemu."
+				},
+				"8": {
+					"title": "Czy instalacja pompy ciepła wymaga pozwolenia?",
+					"description": "W większości przypadków instalacja pompy ciepła nie wymaga specjalnego pozwolenia, ale warto sprawdzić lokalne przepisy budowlane i regulacje, które mogą się różnić w zależności od regionu."
+				},
+				"9": {
+					"title": "Jak długo trwa instalacja pompy ciepła?",
+					"description": "Czas instalacji zależy od rodzaju pompy ciepła i warunków lokalnych. Proste systemy powietrze-powietrze mogą być zainstalowane w kilka dni, a te bardziej skomplikowane systemy grunt-woda mogą wymagać nawet kilku tygodni na instalację."
+				}
+			}
+		},
+		"wentylacja": {
+			"slug": "wentylacja",
+			"title": "Wentylacja",
+			"items": {
+				"0": {
+					"title": "Co to jest wentylacja i dlaczego jest ważna?",
+					"description": "Wentylacja to proces wymiany powietrza w pomieszczeniach, który zapewnia dopływ świeżego powietrza oraz usuwa zanieczyszczone powietrze. Jest ważna dla utrzymania zdrowego i komfortowego środowiska wewnętrznego, redukcji wilgotności, zapobiegania powstawaniu pleśni oraz usuwania zanieczyszczeń i alergenów."
+				},
+				"1": {
+					"title": "Jakie są rodzaje systemów wentylacyjnych?",
+					"description": "• Wentylacja naturalna: Oparta na naturalnym przepływie powietrza przez okna, drzwi i przewody wentylacyjne.\n• Wentylacja mechaniczna: Systemy z wentylatorami wymuszającymi przepływ powietrza, np. wentylacja mechaniczna wywiewna, nawiewno-wywiewna z rekuperacją ciepła.\n• Wentylacja hybrydowa: Kombinacja wentylacji naturalnej i mechanicznej."
+				},
+				"2": {
+					"title": "Co to jest rekuperacja?",
+					"description": "Rekuperacja to proces odzyskiwania ciepła z powietrza wywiewanego z budynku i wykorzystywania go do ogrzewania świeżego powietrza nawiewanego. Pomaga zmniejszyć straty energii i poprawić efektywność energetyczną budynku."
+				},
+				"3": {
+					"title": "Jakie są korzyści z zastosowania wentylacji mechanicznej z rekuperacją?",
+					"description": "• Lepsza jakość powietrza wewnętrznego.\n• Redukcja kosztów ogrzewania dzięki odzyskiwaniu ciepła.\n• Stały dopływ świeżego powietrza.\n• Zmniejszenie wilgotności i ryzyka powstawania pleśni."
+				},
+				"4": {
+					"title": "Jak często należy serwisować system wentylacyjny?",
+					"description": "Systemy wentylacyjne powinny być serwisowane co najmniej raz w roku. Regularne przeglądy i czyszczenie pomagają utrzymać ich efektywność i zapewniają dobrą jakość powietrza."
+				},
+				"5": {
+					"title": "Jakie są objawy problemów z wentylacją?",
+					"description": "• Duszne i zanieczyszczone powietrze wewnątrz pomieszczeń.\n• Nadmierna wilgotność i kondensacja na oknach.\n• Zapachy utrzymujące się w pomieszczeniach.\n• Problemy z pleśnią i grzybem.\n• Zwiększona ilość kurzu i alergenów."
+				},
+				"6": {
+					"title": "Czy wentylacja mechaniczna jest głośna?",
+					"description": "Nowoczesne systemy wentylacyjne są zaprojektowane tak, aby pracować cicho. Hałas może być wynikiem nieprawidłowej instalacji, zużycia części lub braku serwisu. Regularne przeglądy i konserwacja pomagają utrzymać niski poziom hałasu."
+				},
+				"7": {
+					"title": "Jakie filtry są stosowane w systemach wentylacyjnych i jak często należy je wymieniać?",
+					"description": "W systemach wentylacyjnych stosuje się różne rodzaje filtrów, w tym filtry podstawowe (G3, G4), filtry dokładne (F7, F9) oraz filtry HEPA. Częstotliwość wymiany zależy od rodzaju filtra i warunków eksploatacji, ale zazwyczaj wynosi od 3 do 6 miesięcy."
+				},
+				"8": {
+					"title": "Czy wentylacja mechaniczna wpływa na zużycie energii?",
+					"description": "Tak, wentylacja mechaniczna zużywa energię elektryczną do zasilania wentylatorów. Jednak systemy z rekuperacją ciepła mogą znacząco obniżyć koszty ogrzewania poprzez odzyskiwanie ciepła z powietrza wywiewanego."
+				},
+				"9": {
+					"title": "Czy mogę samodzielnie zainstalować system wentylacyjny?",
+					"description": "Instalacja systemu wentylacyjnego wymaga specjalistycznej wiedzy i umiejętności, dlatego zaleca się, aby była wykonana przez profesjonalistów. Nieprawidłowa instalacja może prowadzić do nieskutecznego działania systemu, nadmiernego hałasu i innych problemów."
+				}
+			}
+		},
+		"chlodnictwo": {
+			"slug": "chlodnictwo",
+			"title": "Chłodnictwo",
+			"items": {
+				"0": {
+					"title": "Co to jest chłodnictwo?",
+					"description": "Chłodnictwo to proces usuwania ciepła z określonego miejsca lub substancji w celu obniżenia i utrzymania jego temperatury poniżej temperatury otoczenia. Stosuje się je w różnych dziedzinach, takich jak przechowywanie żywności, klimatyzacja, produkcja przemysłowa i wiele innych."
+				},
+				"1": {
+					"title": "Jak działa system chłodniczy?",
+					"description": "System chłodniczy działa na zasadzie cyklu chłodniczego, który obejmuje cztery główne etapy:\n1. Parowanie: Czynnik chłodniczy absorbuje ciepło z wnętrza chłodzonego pomieszczenia lub urządzenia, przechodząc z cieczy w gaz.\n2. Sprężanie: Gazowy czynnik chłodniczy jest sprężany, co zwiększa jego temperaturę.\n3. Skraplanie: Gorący, sprężony gaz przechodzi przez skraplacz, gdzie oddaje ciepło na zewnątrz i wraca do stanu ciekłego.\n4. Rozprężanie: Ciekły czynnik chłodniczy przechodzi przez zawór rozprężny, gdzie jego ciśnienie i temperatura spadają, co umożliwia ponowne parowanie."
+				},
+				"2": {
+					"title": "Jakie są rodzaje systemów chłodniczych?",
+					"description": "• Chłodnictwo domowe: Lodówki, zamrażarki.\n• Chłodnictwo komercyjne: Chłodziarki sklepowe, komory chłodnicze, urządzenia do przechowywania żywności w restauracjach.\n• Chłodnictwo przemysłowe: Systemy chłodzenia w przemyśle chemicznym, farmaceutycznym, spożywczym itp."
+				},
+				"3": {
+					"title": "Co to jest czynnik chłodniczy?",
+					"description": "Czynnik chłodniczy to substancja chemiczna, która krąży w systemie chłodniczym, absorbując i oddając ciepło podczas zmiany stanu z cieczy na gaz i odwrotnie. Powszechnie stosowane czynniki chłodnicze to R-134a, R-410A, R-22 (którego stosowanie jest stopniowo wycofywane) i inne."
+				},
+				"4": {
+					"title": "Jak często należy serwisować system chłodniczy?",
+					"description": "Systemy chłodnicze powinny być serwisowane regularnie, przynajmniej raz w roku, aby zapewnić ich prawidłowe i efektywne działanie. Regularne serwisy pomagają wykrywać i naprawiać problemy, zanim staną się poważne."
+				},
+				"5": {
+					"title": "Jakie są najczęstsze problemy z systemami chłodniczymi?",
+					"description": "• Ubytki czynnika chłodniczego.\n• Problemy z kompresorem.\n• Niesprawne wentylatory.\n• Zanieczyszczone lub zatkane skraplacze i parowniki.\n• Problemy z termostatami."
+				},
+				"6": {
+					"title": "Jak mogę poprawić efektywność mojego systemu chłodniczego?",
+					"description": "• Regularnie czyść i konserwuj urządzenie.\n• Unikaj częstego otwierania drzwi urządzeń chłodniczych.\n• Upewnij się, że uszczelki drzwi są w dobrym stanie.\n• Nie przechowuj zbyt dużej ilości produktów, aby zapewnić odpowiednią cyrkulację powietrza."
+				},
+				"7": {
+					"title": "Czy system chłodniczy zużywa dużo energii?",
+					"description": "Zużycie energii zależy od wielkości i typu systemu chłodniczego, jego efektywności energetycznej oraz sposobu użytkowania. Nowoczesne urządzenia chłodnicze są zazwyczaj bardziej energooszczędne niż starsze modele."
+				},
+				"8": {
+					"title": "Czy mogę samodzielnie naprawić system chłodniczy?",
+					"description": "Niektóre drobne naprawy, takie jak czyszczenie filtra powietrza lub wymiana uszczelek, można wykonać samodzielnie. Jednak poważniejsze problemy, szczególnie te związane z czynnikiem chłodniczym lub kompresorem, powinny być naprawiane przez wykwalifikowanego technika."
+				},
+				"9": {
+					"title": "Co zrobić, gdy system chłodniczy przestaje działać?",
+					"description": "Jeśli system chłodniczy przestaje działać, sprawdź podstawowe kwestie, takie jak zasilanie, ustawienia termostatu i uszczelki drzwi. Jeśli problem nadal występuje, skontaktuj się z profesjonalnym serwisem w celu diagnozy i naprawy."
+				}
+			}
+		}
+	}
+}
