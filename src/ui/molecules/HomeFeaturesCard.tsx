@@ -19,7 +19,7 @@ export const HomeFeaturesCard = ({ icon, alt, title, description }: HomeFeatures
 					</div>
 				</CardHeader>
 				<CardContent>
-					<p className="text-sm sm:text-base">{description}</p>
+					<p>{description}</p>
 				</CardContent>
 			</Card>
 		</div>
