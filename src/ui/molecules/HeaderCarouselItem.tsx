@@ -15,7 +15,7 @@ export const HeaderCarouselItem = ({ slug, title, description }: HeaderCarouselI
 			<Card className="bg-primary/0 shadow-none">
 				<CardContent>
 					<hr className="mb-4 ml-auto h-1 max-w-20 bg-muted" />
-					<p className="text-pretty text-end text-muted">{description}</p>
+					<p className="text-end text-cardblue-foreground">{description}</p>
 				</CardContent>
 				<CardFooter>
 					<Button variant={"outline"} size={"lg"} className="ml-auto" asChild>

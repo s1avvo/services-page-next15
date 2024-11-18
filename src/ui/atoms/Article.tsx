@@ -15,7 +15,9 @@ export const Article = ({ slug, subtitle, title, description, className }: Artic
 				{subtitle}
 			</h5>
 			<h2 className="text-center text-3xl text-primary sm:text-left sm:text-4xl">{title}</h2>
-			<p className="mt-8 text-pretty text-center text-base text-paragraf sm:text-left">{description}</p>
+			<p className="mt-8 text-pretty text-center text-base text-muted-foreground sm:text-left">
+				{description}
+			</p>
 		</article>
 	);
 };

@@ -38,14 +38,14 @@ export default async function Home() {
 					<h1 className="text-center text-3xl text-primary sm:text-4xl md:text-5xl lg:text-left">
 						{t.rich("hero.title", {
 							span: (chunks) => (
-								<span className="text-paragraf">
+								<span className="text-tertiary">
 									<br />
 									{chunks}
 								</span>
 							),
 						})}
 					</h1>
-					<p className="mx-auto mt-8 max-w-md px-4 text-center text-base text-paragraf sm:px-0 lg:mx-0 lg:text-left">
+					<p className="mx-auto mt-8 max-w-md px-4 text-center text-base text-tertiary sm:px-0 lg:mx-0 lg:text-left">
 						{t("hero.description")}
 					</p>
 					<div className="flex justify-center lg:justify-start">

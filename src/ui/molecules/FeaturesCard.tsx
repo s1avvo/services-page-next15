@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card, CardHeader, CardTitle, CardContent, CardDescription } from "@/ui/shadcn/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/ui/shadcn/card";
 
 type FeaturesProps = {
 	icon: string;
@@ -16,7 +16,7 @@ export const FeaturesCard = ({ icon, alt, title, description }: FeaturesProps) =
 				<CardTitle className="text-center">{title}</CardTitle>
 			</CardHeader>
 			<CardContent>
-				<CardDescription className="text-pretty text-center text-base">{description}</CardDescription>
+				<p className="text-center">{description}</p>
 			</CardContent>
 		</Card>
 	);

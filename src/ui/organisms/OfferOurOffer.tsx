@@ -24,7 +24,7 @@ export const OfferOurOffer = ({
 			<div className="mx-8 mt-8 md:mt-0 md:max-w-md" id={slug}>
 				<div className="space-y-4 sm:space-y-8">
 					<h2 className="text-2xl text-primary md:text-3xl">{title}</h2>
-					<p className="mt-8 text-pretty text-base text-paragraf">{description}</p>
+					<p className="mt-8 text-pretty text-base text-muted-foreground">{description}</p>
 					<h4 className="text-lg uppercase text-secondary">{footer.toUpperCase()}</h4>
 				</div>
 			</div>
