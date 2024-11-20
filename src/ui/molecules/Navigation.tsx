@@ -15,7 +15,7 @@ export const Navigation = async () => {
 						<li key={t(`${key}.href`)}>
 							<PrefetchLink
 								href={t(`${key}.href`)}
-								className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-base text-tertiary transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none"
+								className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-base text-tertiary transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none"
 							>
 								{t(`${key}.label`)}
 							</PrefetchLink>
