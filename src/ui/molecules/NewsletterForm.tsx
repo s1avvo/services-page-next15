@@ -40,7 +40,7 @@ export const NewsletterForm = () => {
 			<p className="mt-4 max-w-2xl text-sm text-accent sm:text-base">{t("description")}</p>
 
 			<Form action={signForNewsletter} className="mt-4 flex w-full max-w-sm items-center gap-2">
-				<Input id="email" type="email" placeholder={t("emailPlaceholder")} name="email" required />
+				<Input type="email" placeholder={t("emailPlaceholder")} name="email" required autoComplete="email" />
 				<Button variant={"secondary"} size={"sm"} type="submit" disabled={isPending}>
 					<span className="hidden sm:inline-block">{t("submitButton")}</span>
 					<ChevronRightIcon className="inline-block sm:hidden" aria-label="Send e-mail" />
