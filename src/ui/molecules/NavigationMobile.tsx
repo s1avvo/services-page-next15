@@ -1,7 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/ui/shadcn/sheet";
+import {
+	Sheet,
+	SheetContent,
+	SheetTrigger,
+	SheetHeader,
+	SheetTitle,
+	SheetDescription,
+} from "@/ui/shadcn/sheet";
 import { Button } from "@/ui/shadcn/button";
 
 export const NavigationMobile = ({ children }: { children: React.ReactNode }) => {
@@ -27,6 +34,7 @@ export const NavigationMobile = ({ children }: { children: React.ReactNode }) =>
 				>
 					{children}
 				</div>
+				<SheetDescription className="hidden" />
 			</SheetContent>
 		</Sheet>
 	);

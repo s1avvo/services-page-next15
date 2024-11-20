@@ -23,14 +23,15 @@ export const LanguageSelect = ({ className }: { className?: string }) => {
 			<SelectTrigger
 				isIcon={false}
 				className={cn("flex w-[35px] items-center justify-center px-0 py-0 shadow-none", className)}
+				aria-label="Choose language"
 			>
 				<SelectValue placeholder={t("namePlaceholder")} />
 			</SelectTrigger>
 			<SelectContent className="min-w-[2rem]">
-				<SelectItem value="pl" disabled={t("namePlaceholder") === "PL"}>
+				<SelectItem value="pl" disabled={t("namePlaceholder") === "PL"} aria-label="Polski">
 					PL
 				</SelectItem>
-				<SelectItem value="en" disabled={t("namePlaceholder") === "EN"}>
+				<SelectItem value="en" disabled={t("namePlaceholder") === "EN"} aria-label="English">
 					EN
 				</SelectItem>
 			</SelectContent>
