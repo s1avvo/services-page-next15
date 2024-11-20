@@ -1,12 +1,16 @@
 "use client";
 
+import clsx from "clsx";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { type ComponentPropsWithRef } from "react";
 
 export const PrefetchLink = (props: ComponentPropsWithRef<typeof Link>) => {
+	const currentPath = usePathname();
 	const router = useRouter();
 	const strHref = typeof props.href === "string" ? props.href : props.href.href;
+
+	const isActive = currentPath === strHref;
 
 	const conditionalPrefetch = () => {
 		if (strHref) {
@@ -34,6 +38,7 @@ export const PrefetchLink = (props: ComponentPropsWithRef<typeof Link>) => {
 				conditionalPrefetch();
 				return props.onFocus?.(e);
 			}}
+			className={clsx(props.className, `${isActive && "bg-accent text-accent-foreground outline-none"}`)}
 		/>
 	);
 };
