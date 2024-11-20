@@ -43,7 +43,7 @@ export const NewsletterForm = () => {
 				<Input id="email" type="email" placeholder={t("emailPlaceholder")} name="email" required />
 				<Button variant={"secondary"} size={"sm"} type="submit" disabled={isPending}>
 					<span className="hidden sm:inline-block">{t("submitButton")}</span>
-					<ChevronRightIcon className="inline-block sm:hidden" />
+					<ChevronRightIcon className="inline-block sm:hidden" aria-label="Send e-mail" />
 				</Button>
 			</Form>
 		</div>

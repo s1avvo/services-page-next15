@@ -18,7 +18,7 @@ export const NavigationMobile = ({ children }: { children: React.ReactNode }) =>
 		<Sheet open={isOpen} onOpenChange={setIsOpen}>
 			<SheetTrigger asChild>
 				<Button variant="ghost" size={"icon"}>
-					<MenuIcon />
+					<MenuIcon aria-label="Menu" />
 				</Button>
 			</SheetTrigger>
 			<SheetContent className="w-3/4 max-w-sm">
