@@ -17,6 +17,7 @@ import { HomeCooperation } from "@ui/HomeCooperation";
 import { Button } from "@/ui/shadcn/button";
 
 import { homeWebsiteJsonLd, JsonLd } from "@/ui/JsonLd";
+import { HeroImageSkeleton } from "@/ui/molecules/HeroImageSkeleton";
 
 export const experimental_ppr = true;
 
@@ -60,7 +61,9 @@ export default async function Home() {
 
 				{/* Right Side: Image, Decorative Elements and Customer Review */}
 				<div className="relative mt-16 flex-1 md:w-2/3 lg:ml-20 lg:mr-0 lg:mt-0">
-					<HeroImage />
+					<Suspense fallback={<HeroImageSkeleton />}>
+						<HeroImage imageId={t("hero.imageId")} />
+					</Suspense>
 
 					{/* Dynamic Component - Random customer review */}
 					<div className="relative inset-x-0 bottom-0 z-20 w-full sm:absolute sm:max-w-md md:-mr-16 md:-translate-x-24 xl:mr-0 xl:-translate-x-32">

@@ -93,7 +93,8 @@
 		"hero": {
 			"title": "Your CLIMATE <span>in good hands!</span>",
 			"description": "Comprehensive solutions in the field of cooling, air conditioning, and ventilation systems tailored to the needs of both individual and commercial clients.",
-			"action": "Our offer"
+			"action": "Our offer",
+			"imageId": "hero_fi40bd"
 		},
 		"offer": {
 			"subtitle": "Offer",
@@ -315,6 +316,7 @@
 			}
 		},
 		"aboutUs": {
+			"imageId": "kontakt/contact_ighple",
 			"slug": "ofirmie",
 			"subtitle": "About Us",
 			"title": "The History of <span>Our Company</span>",

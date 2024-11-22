@@ -57,7 +57,7 @@ export default async function ContactPage() {
 			<div className="mx-auto mt-4 max-w-screen-xl space-y-16 px-0 sm:mt-24 sm:space-y-24 sm:px-6 lg:px-8">
 				{/* About Us */}
 				<section className="flex flex-col items-center justify-center md:flex-row">
-					<Image600 imageId={"kontakt/contact_ighple"} />
+					<Image600 imageId={t("aboutUs.imageId")} />
 
 					<Article
 						slug={t("aboutUs.slug")}

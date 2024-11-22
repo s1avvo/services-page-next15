@@ -93,7 +93,8 @@
 		"hero": {
 			"title": "Twój KLIMAT <span>w dobrych rękach!</span>",
 			"description": "Kompleksowe rozwiązania w dziedzinie systemów chłodniczych, klimatyzacyjnych oraz wentylacyjnych dostosowane do potrzeb zarówno klientów indywidualnych, jak i komercyjnych.",
-			"action": "Nasza oferta"
+			"action": "Nasza oferta",
+			"imageId": "hero_fi40bd"
 		},
 		"offer": {
 			"subtitle": "Oferta",
@@ -315,6 +316,7 @@
 			}
 		},
 		"aboutUs": {
+			"imageId": "kontakt/contact_ighple",
 			"slug": "ofirmie",
 			"subtitle": "O Firmie",
 			"title": "Historia <span>Naszej firmy</span>",

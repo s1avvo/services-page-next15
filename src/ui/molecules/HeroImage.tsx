@@ -3,8 +3,8 @@ import { CldImage } from "@/ui/atoms/CldImage";
 
 import { getImage } from "@/actions/cloudinaryActions";
 
-export const HeroImage = async () => {
-	const image = await getImage("hero_fi40bd");
+export const HeroImage = async ({ imageId }: { imageId: string }) => {
+	const image = await getImage(imageId);
 
 	return (
 		<>
