@@ -19,7 +19,7 @@ const nextConfig: NextConfig = {
 	},
 
 	images: {
-		remotePatterns: [{ hostname: "res.cloudinary.com/" }],
+		remotePatterns: [{ hostname: "res.cloudinary.com" }],
 		formats: ["image/webp"],
 	},
 

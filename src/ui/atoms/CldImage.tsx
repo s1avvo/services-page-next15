@@ -1,12 +1,13 @@
 "use client";
 
-import { CldImage as CldImageDefault, type CldImageProps } from "next-cloudinary";
-import { type ImageProps } from "next/image";
+import { getCldImageUrl } from "next-cloudinary";
+import Image, { type ImageProps } from "next/image";
 
-export const CldImage = (props: CldImageProps) => {
+export const CldImage = (props: ImageProps) => {
+	const srcCld = getCldImageUrl({ src: props.src as string });
 	const dataUrl = `data:image/svg+xml;base64,${toBase64(shimmer(600, 400))}`;
 
-	return <CldImageDefault {...props} placeholder={dataUrl as ImageProps["placeholder"]} />;
+	return <Image {...props} src={srcCld} placeholder={dataUrl as ImageProps["placeholder"]} />;
 };
 
 export function toBase64(str: string) {
@@ -28,3 +29,16 @@ export function shimmer(w: number, h: number) {
 		<animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite"  />
 	</svg>`;
 }
+
+//CldImage component cause warnings about Third-party cookies
+
+// "use client";
+
+// import { CldImage as CldImageDefault, type CldImageProps } from "next-cloudinary";
+// import { type ImageProps } from "next/image";
+
+// export const CldImage = (props: CldImageProps) => {
+// 	const dataUrl = `data:image/svg+xml;base64,${toBase64(shimmer(600, 400))}`;
+
+// 	return <CldImageDefault {...props} placeholder={dataUrl as ImageProps["placeholder"]} />;
+// };
