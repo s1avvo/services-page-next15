@@ -1,3 +1,4 @@
+import Script from "next/script";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
@@ -37,7 +38,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 					<div className="flex min-h-svh flex-1 flex-col bg-background">{children}</div>
 					<Toaster />
 				</NextIntlClientProvider>
-				{/* <Analytics /> */}
+
+				<Script
+					id="cookieyes"
+					src="https://cdn-cookieyes.com/client_data/84df76d63069d01ab05b40fd/script.js"
+					strategy="beforeInteractive"
+				/>
 			</body>
 		</html>
 	);
