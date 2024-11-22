@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { HeroImage } from "@ui/HeroImage";
+import { HeroImageSkeleton } from "@ui/HeroImageSkeleton";
 import { HeroReview } from "@ui/HeroReview";
 import { HeroReviewSkeleton } from "@ui/HeroReviewSkeleton";
 import { Article } from "@ui/Article";
@@ -17,7 +18,6 @@ import { HomeCooperation } from "@ui/HomeCooperation";
 import { Button } from "@/ui/shadcn/button";
 
 import { homeWebsiteJsonLd, JsonLd } from "@/ui/JsonLd";
-import { HeroImageSkeleton } from "@/ui/molecules/HeroImageSkeleton";
 
 export const experimental_ppr = true;
 
