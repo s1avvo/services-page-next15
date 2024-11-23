@@ -42,9 +42,9 @@ export default async function FaqPage() {
 				</div>
 			</section>
 
-			<div className="mx-auto mb-16 mt-16 max-w-3xl space-y-16 px-4 sm:mt-24 sm:space-y-20 md:px-4 lg:px-0">
+			<section className="mx-auto mb-16 mt-16 max-w-3xl space-y-16 px-4 sm:mt-24 sm:space-y-20 md:px-4 lg:px-0">
 				<Accordion type="single" collapsible className="text-tertiary" id={t("klimatyzacja.slug")}>
-					<h3 className="mb-4 text-2xl text-primary">{t("klimatyzacja.title")}</h3>
+					<h2 className="mb-4 text-2xl text-primary">{t("klimatyzacja.title")}</h2>
 
 					{accordionItemsKey.map((key) => (
 						<FaqAccordionItem
@@ -94,7 +94,7 @@ export default async function FaqPage() {
 						/>
 					))}
 				</Accordion>
-			</div>
+			</section>
 		</>
 	);
 }

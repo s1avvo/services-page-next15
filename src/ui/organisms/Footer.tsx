@@ -57,7 +57,7 @@ export const Footer = async () => {
 					<div className="md:col-span-3">
 						<div className="mt-6 flex flex-wrap items-start justify-start gap-x-16 gap-y-8 sm:mt-0 sm:justify-end">
 							<div>
-								<h3 className="mb-2 text-lg text-muted">{t("contact.header")}</h3>
+								<h4 className="mb-2 text-lg text-muted">{t("contact.header")}</h4>
 								<ul role="list" className="flex flex-col items-stretch justify-center gap-y-2">
 									{contact.links.map((links) => (
 										<li key={links.label} className="flex items-center gap-x-4 text-secondary">

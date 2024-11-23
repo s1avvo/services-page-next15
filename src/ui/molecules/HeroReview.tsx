@@ -21,9 +21,7 @@ export const HeroReview = async () => {
 					</svg>
 				</div>
 				<CardHeader>
-					<CardTitle className="line-clamp-1 text-xl text-cardblue-foreground sm:text-2xl">
-						{randomReview?.author_name}
-					</CardTitle>
+					<CardTitle className="text-xl text-cardblue-foreground">{randomReview?.author_name}</CardTitle>
 					<CardDescription className="text-cardblue-foreground">
 						{`${randomReview?.rating}/5`} | {randomReview?.relative_time_description}
 					</CardDescription>

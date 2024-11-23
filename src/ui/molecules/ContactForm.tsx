@@ -112,7 +112,7 @@ export const ContactForm = () => {
 								<FormItem className="col-span-2">
 									<Select onValueChange={field.onChange} value={field.value}>
 										<FormControl>
-											<SelectTrigger>
+											<SelectTrigger aria-label="Select subject">
 												<SelectValue placeholder={t("subjectPlaceholder")} />
 											</SelectTrigger>
 										</FormControl>
@@ -152,7 +152,12 @@ export const ContactForm = () => {
 								<FormItem className="col-span-2">
 									<div className="flex flex-row items-center space-x-2">
 										<FormControl>
-											<Checkbox checked={field.value} onCheckedChange={field.onChange} id="terms1" />
+											<Checkbox
+												checked={field.value}
+												onCheckedChange={field.onChange}
+												id="terms1"
+												aria-label="Check term"
+											/>
 										</FormControl>
 										<FormLabel htmlFor="terms1">
 											<Link

@@ -39,7 +39,7 @@ export const HomeReviewCarouselItem = ({
 			<div className="mb-4 mt-6 flex w-full items-center justify-center">
 				<Card className="cursor-pointer">
 					<CardHeader>
-						<CardTitle className="text-xl sm:text-2xl">{author_name}</CardTitle>
+						<CardTitle className="text-xl">{author_name}</CardTitle>
 						<div className="flex items-center gap-2">
 							<ClockIcon className="text-secondary" />{" "}
 							<CardDescription>{relative_time_description}</CardDescription>

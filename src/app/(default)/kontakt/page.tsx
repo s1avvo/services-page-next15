@@ -55,7 +55,7 @@ export default async function ContactPage() {
 			</section>
 
 			<div className="mx-auto mt-4 max-w-screen-xl space-y-16 px-0 sm:mt-24 sm:space-y-24 sm:px-6 lg:px-8">
-				{/* About Us */}
+				{/* About Us section*/}
 				<section className="flex flex-col items-center justify-center md:flex-row">
 					<Image600 imageId={t("aboutUs.imageId")} />
 
@@ -67,6 +67,20 @@ export default async function ContactPage() {
 						})}
 						description={t("aboutUs.description")}
 					/>
+				</section>
+
+				{/* Contact section */}
+				<section className="flex flex-col items-center justify-center md:flex-row">
+					<Article
+						slug={t("contact.slug")}
+						subtitle={t("contact.subtitle")}
+						title={t.rich("contact.title", {
+							span: (chunks) => <span className="text-secondary">{chunks}</span>,
+						})}
+						description={t("contact.description")}
+					/>
+
+					<ContactForm />
 				</section>
 
 				{/* Features */}
@@ -87,20 +101,6 @@ export default async function ContactPage() {
 						</div>
 					))}
 				</Features>
-
-				{/* Contact form */}
-				<section className="flex flex-col items-center justify-center md:flex-row">
-					<Article
-						slug={t("contact.slug")}
-						subtitle={t("contact.subtitle")}
-						title={t.rich("contact.title", {
-							span: (chunks) => <span className="text-secondary">{chunks}</span>,
-						})}
-						description={t("contact.description")}
-					/>
-
-					<ContactForm />
-				</section>
 			</div>
 
 			{/* Google Map with Customer Pin */}

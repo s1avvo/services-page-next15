@@ -29,7 +29,7 @@ export const HomeOfferCarouselItem = async ({ imageId, link, title }: HomeOfferC
 						<div className="h-[515px] w-full rounded-t-md bg-tertiary-foreground sm:h-[650px]" />
 					)}
 					<div className="absolute inset-0 h-14 w-full self-end rounded-b-md bg-primary">
-						<h3 className="mt-1 text-balance text-center text-2xl text-primary-foreground">{title}</h3>
+						<p className="mt-1 text-balance text-center text-2xl text-primary-foreground">{title}</p>
 					</div>
 
 					<div className="absolute inset-0 rounded-md bg-primary/20 opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
