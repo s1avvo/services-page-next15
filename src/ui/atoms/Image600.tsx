@@ -15,6 +15,7 @@ export const Image600 = async ({ imageId }: { imageId: string }) => {
 						fill
 						sizes="(min-width: 1380px) 405px, (min-width: 1040px) calc(25vw + 65px), (min-width: 780px) calc(50vw - 24px), (min-width: 640px) calc(100vw - 48px), 100vw"
 						className={`mx-auto aspect-auto object-cover sm:mx-0 sm:rounded-md`}
+						priority
 					/>
 				</div>
 			) : (
