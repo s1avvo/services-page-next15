@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { Image600 } from "@ui/Image600";
-import { Image600Skeleton } from "@ui/Image600Skeleton";
+import { Skeleton } from "@/ui/shadcn/skeleton";
 
 type OfferOurOfferProps = {
 	title: string;
@@ -21,7 +21,11 @@ export const OfferOurOffer = ({
 }: OfferOurOfferProps) => {
 	return (
 		<article className={`items-center justify-center md:flex ${reverse ? "flex-row-reverse" : "flex-row"}`}>
-			<Suspense fallback={<Image600Skeleton />}>
+			<Suspense
+				fallback={
+					<Skeleton className="h-[600px] w-full rounded-t-md sm:mx-8 md:mx-4 md:w-1/2 lg:mx-8 lg:w-1/3" />
+				}
+			>
 				<Image600 imageId={imageId} />
 			</Suspense>
 

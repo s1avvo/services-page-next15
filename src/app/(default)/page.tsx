@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import { HeroImage } from "@ui/HeroImage";
-import { HeroImageSkeleton } from "@ui/HeroImageSkeleton";
 import { HeroReview } from "@ui/HeroReview";
 import { HeroReviewSkeleton } from "@ui/HeroReviewSkeleton";
 import { Article } from "@ui/Article";
@@ -16,6 +15,7 @@ import { HomeReviews } from "@ui/HomeReviews";
 import { HomeReviewCardSkeleton } from "@ui/HomeReviewCardSkeleton";
 import { HomeCooperation } from "@ui/HomeCooperation";
 import { Button } from "@/ui/shadcn/button";
+import { Skeleton } from "@/ui/shadcn/skeleton";
 
 import { homeWebsiteJsonLd, JsonLd } from "@/ui/JsonLd";
 
@@ -61,7 +61,11 @@ export default async function Home() {
 
 				{/* Right Side: Image, Decorative Elements and Customer Review */}
 				<div className="relative mt-16 flex-1 md:w-2/3 lg:ml-20 lg:mr-0 lg:mt-0">
-					<Suspense fallback={<HeroImageSkeleton />}>
+					<Suspense
+						fallback={
+							<Skeleton className="z-20 flex h-[520px] w-full rounded-lg bg-tertiary-foreground sm:h-[560px]" />
+						}
+					>
 						<HeroImage imageId={t("hero.imageId")} />
 					</Suspense>
 
