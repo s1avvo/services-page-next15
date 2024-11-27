@@ -29,7 +29,32 @@ The website is hosted on the [Vercel](https://vercel.com/) platform, ensuring re
 - Supported languages: **English** and **Polish**.
 - Localization is managed with **next-intl**, making it easy to scale and edit content.
 
-## **Technologies Used**
+### 4. **Add Environment Variables**
+
+To set up the project, you need to define the following environment variables. For development, create a `.env.local` file and copy the contents from `.env.example` into it, adjusting the values as needed.
+
+- `NEXT_PUBLIC_URL` – Optional on Vercel the address of your website. For local development, i.e. `http://localhost:3000`.
+- `NEXT_PUBLIC_LANGUAGE` - Specifies the default language if the browser's language is not available in the `/messages`. Supported values: `PL` or `EN`.
+
+#### Resend API
+
+- `RESEND_API_KEY` - The API key from Resend
+- `RESEND_AUDIENCE_ID` - The Audience ID from Resend
+- `EMAIL_TO` - The email address where messages from the website should be sent
+
+#### Cloudinary API
+
+- `NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME` - Your public Cloudinary cloud name
+- `CLOUDINARY_API_KEY` - The API key from Cloudinary
+- `CLOUDINARY_API_SECRET` - The API Secret from Cloudinary
+- `CLOUDINARY_URL` - A combination of your API key, secret and cloud name
+
+#### Google API
+
+- `GOOGLE_API_KEY` - The API key from Google
+- `GOOGLE_PLACE_ID` - The place ID for your business on Google Maps
+
+### **Technologies Used**
 
 <div>
   <img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704" alt="Next.js" title="Next.js"/>
